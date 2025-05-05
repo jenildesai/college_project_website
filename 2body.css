@@ -1,0 +1,189 @@
+body{
+   background-color:  #04043c;;
+}
+
+.navbar ul{
+   display: flex;
+   list-style: none;
+   z-index: 1;
+   font-size: larger;
+   padding: 33px;
+   gap: 30px;
+   cursor: pointer;
+   padding: 19px;
+}
+
+.navbar a{
+   padding: 19px;
+   color: purple;
+   text-decoration: none;
+}
+
+.navbar ul a::after{
+   text-decoration: none;
+   content:"" ;
+   width: 0%;
+   height: 3px;
+   background:red ;
+   display: block;
+   margin: auto;
+   transition: all;
+   transition-duration: 5s;
+   transition-delay: 5s;
+}
+
+
+.navbar ul a:hover::after{
+     width: 35px;
+     text-decoration: none;
+     transition-delay: 5s;
+     transition-duration: 5s;
+}
+
+img{
+   padding: 100px;
+   width: 344px;
+   border-radius: 285px;
+}
+
+
+
+.info{
+      
+   margin: -357px 0px 0px 537px;
+}
+
+.about p{
+   padding: 156px 0px 12px 700px;
+}
+
+.about h1{
+   margin: -17px 0px 0px 0px;
+    padding: 0px 0px 0px 692px;
+}
+
+
+.card1{
+   border: 2px solid black;
+   width: 393px;
+    height: 176px;
+    margin: -350px 0px 0px 489px;
+    border-radius: 14px;
+    background-color: white;
+}
+
+.card1 img{
+   padding: 9px 0px 0px 174px;
+    width: 55px;
+
+}
+
+.card1 p{
+   margin: 0px;
+    font-size: 25px;
+    padding: 0px 0px 0px 143px;
+}
+
+.card1 h3{
+   padding: 16px 0px 0px 97px;
+}
+
+.card2{
+   border: 2px solid black;
+   width: 393px;
+    height: 176px;
+    margin: -179px 0px 0px 960px;
+    border-radius: 14px;
+    background-color: white;
+}
+
+.card2 img{
+   padding: 9px 0px 0px 174px;
+    width: 55px;
+
+}
+
+.card2 p{
+   margin: 0px;
+    font-size: 25px;
+    padding: 0px 0px 0px 143px;
+}
+
+.card2 h3{
+   padding: 16px 0px 0px 37px;
+}
+
+.pere p{
+   font-size: 21px;
+    padding: 11px 0px 0px 514px;
+    width: 793px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.card3{
+   border: 2px solid black;
+   width: 393px;
+   height: 277px;
+   margin: 80px 0px 0px 283px;
+   border-radius: 14px;
+   background-color: white;
+}
+
+.card3 p{
+   font-size: 28px;
+    padding: 14px 119px;
+    margin: 0;
+}
+
+.card4{
+   border: 2px solid black;
+   width: 393px;
+   height: 277px;
+   margin: -279px 0px 0px 754px;
+   border-radius: 14px;
+   background-color: white;
+
+}
+
+.card4 p{
+   font-size: 28px;
+    padding: 14px 137px;
+    margin: 0;
+}
+
+
+.footer h3{
+   padding: 30px 0px 0px 662px;
+   color: white;
+}
+
+.footer h1{
+   padding: 0px 0px 0px 633px;
+   color: yellow;
+}
+
+.footer a {
+   color: white;
+   border: 2px;
+   width: 268px;
+   margin: 10px 10px 10px 582px;
+   padding: 10px 43px 10px;
+   border-radius: 12px;
+   background-color: #4242bf;
+   cursor: pointer;
+   text-decoration: none;
+}   
+
+.copy p{
+   font-size: 20px;
+   color: white;
+   padding: 38px 10px 10px 490px;
+}
+
+
+
+
+
